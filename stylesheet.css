@@ -1,0 +1,35 @@
+.right {
+  background-color: red;  
+  width: 75%;
+}
+#header {
+    z-index:1;
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background-color: blue;
+}
+.left {
+ float: left;
+ margin-top: 100px;
+}
+.right {
+ float: right;   
+ margin-top: 100px;
+}
+#footer {
+   clear: both; 
+   background-color: grey;
+   text-align: center;
+}
+.left {
+ width: 25%;   
+}
+#email {
+ color: black;   
+}
+#name {
+ font-size:20px;   
+}
